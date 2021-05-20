@@ -1,0 +1,19 @@
+{
+  "name": "programmerzamannow/belajar-php-composer-hello",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Eko Kurniawan Khannedy",
+      "email": "echo.khannedy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProgrammerZamanNow\\Belajar\\": "src/"
+    }
+  }
+}
